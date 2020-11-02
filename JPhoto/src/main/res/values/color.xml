@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="JPrimary">#000000</color>
+    <color name="JLight">#FFFFFF</color>
+    <color name="JAccent">#fe2c56</color>
+</resources>

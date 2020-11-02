@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    android:orientation="vertical">
+
+    <com.willpower.jphoto.camera.JCameraApi2DisplayView
+        android:id="@+id/mTextureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/mFlashControl"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp" />
+
+
+    <ImageView
+        android:id="@+id/imgTakePicture"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/selector_take_picture" />
+
+
+    <ImageView
+        android:id="@+id/imgClose"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginRight="130dp"
+        android:layout_marginBottom="80dp"
+        android:padding="7dp"
+        android:src="@drawable/arrow_down" />
+
+
+    <ImageView
+        android:id="@+id/imgSwitch"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/icon_switch_camera" />
+</FrameLayout>
